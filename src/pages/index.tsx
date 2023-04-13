@@ -17,6 +17,7 @@ const Home: NextPage = () => {
       <div className="max-w-screen-md px-6 pt-24 mx-auto">
         <header className="pb-4 space-y-4 text-center border-b-2">
           <h1 className="text-5xl font-bold">Claim your Digital Collectible!</h1>
+          <h1 className="text-2xl font-bold">Alpha Access</h1>
           <p className="text-xl text-gray-700">
             You do not have valid membership to access this page. Verify or
             buy membership by using the login button below.
@@ -36,6 +37,7 @@ const Home: NextPage = () => {
     <div className="max-w-screen-md px-6 pt-24 mx-auto">
       <header className="pb-4 space-y-4 text-center border-b-2">
         <h1 className="text-5xl font-bold"> Your BSS Memberships (NFTs)</h1>
+        <h1 className="text-2xl font-bold">Alpha Access</h1>
         <p className="text-xl text-gray-700">
           These are all the available memberships valid to access this
           application.
