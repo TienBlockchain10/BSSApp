@@ -16,17 +16,17 @@ const Home: NextPage = () => {
     return (
       <div className="max-w-screen-md px-6 pt-24 mx-auto">
         <header className="pb-4 space-y-4 text-center border-b-2">
-          <h1 className="text-5xl font-bold">Claim your Digital Collectible!</h1>
+          <h1 className="text-5xl font-bold">Claim Your Digital Membership Card!</h1>
           <h1 className="text-2xl font-bold">Alpha Access</h1>
           <p className="text-xl text-gray-700">
-            You do not have valid membership to access this page. Verify or
-            buy membership by using the login button below.
+            Thank you for choosing BSS. Verify or
+            claim your membership card by using the button below.
           </p>
         </header>
         <div className="pt-8">
           <div className="flex justify-center">
             <button className={buttonClass}>
-              <Link href="/api/login">Login using NFT membership</Link>{" "}
+              <Link href="/api/login">Claim/login</Link>{" "}
             </button>
           </div>
         </div>
@@ -36,11 +36,10 @@ const Home: NextPage = () => {
   return (
     <div className="max-w-screen-md px-6 pt-24 mx-auto">
       <header className="pb-4 space-y-4 text-center border-b-2">
-        <h1 className="text-5xl font-bold"> Your BSS Memberships (NFTs)</h1>
+        <h1 className="text-5xl font-bold"> You're a Registered BSS member!</h1>
         <h1 className="text-2xl font-bold">Alpha Access</h1>
         <p className="text-xl text-gray-700">
-          These are all the available memberships valid to access this
-          application.
+          Below you should see your digital membership card and any other cards that you may claim/receive in the future.
         </p>
         <div className="flex justify-end gap-8">
           <button className={buttonClass} onClick={() => logoutUser()}>

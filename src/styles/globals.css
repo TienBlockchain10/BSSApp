@@ -4,7 +4,7 @@
 
 body {
   @apply antialiased bg-slate-50;
-  background: linear-gradient(to bottom, #6FB1FC, #4364F7);
+  background: linear-gradient(to right, rgb(1, 146, 255), rgb(0, 228, 255));
 
   background-repeat: no-repeat;
   min-height: 100vh;
