@@ -36,7 +36,7 @@ const Home: NextPage = () => {
   return (
     <div className="max-w-screen-md px-6 pt-24 mx-auto">
       <header className="pb-4 space-y-4 text-center border-b-2">
-        <h1 className="text-5xl font-bold"> You're a Registered BSS member!</h1>
+        <h1 className="text-5xl font-bold"> You&apos;re a Registered BSS member!</h1>
         <h1 className="text-2xl font-bold">Alpha Access</h1>
         <p className="text-xl text-gray-700">
           Below you should see your digital membership card and any other cards that you may claim/receive in the future.
