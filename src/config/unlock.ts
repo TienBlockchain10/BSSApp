@@ -1,21 +1,16 @@
 export const paywallConfig: Record<string, unknown> = {
 
-  "icon": "https://i.ibb.co/phCKXKM/BLOCKCHAIN-STUDENT-SOCIETY-01.png",
+  "icon": "https://i.ibb.co/2ndZDNM/BLOCKCHAIN-STUDENT-SOCIETY-MORE.jpg",
   "locks": {
-    "0xf88f3765d08d674f464efa72a6866b1e965d3698": {
+    "0xa926ad36faf54e5738913ea99fe0a2a540cd4911": {
       "name": "BSS General Membership",
-      "promo": false,
-      "network": 5,
-      "dataBuilder": "",
-      "emailRequired": true,
-      "maxRecipients": 1,
-      "skipRecipient": true
+      "network": 5
     }
   },
-  "title": "Claim Your Digital Collectible",
+  "title": "Claim Your Membership Card",
   "hideSoldOut": false,
   "pessimistic": true,
-  "messageToSign": "You ready bruv?",
+  "messageToSign": "Please sign message to register as a BSS member!",
   "skipRecipient": true,
   "endingCallToAction": "Enter BSS",
   "persistentCheckout": false
