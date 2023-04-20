@@ -30,7 +30,7 @@ export const paywallConfig: Record<string, unknown> =
   "icon": "https://i.ibb.co/2ndZDNM/BLOCKCHAIN-STUDENT-SOCIETY-MORE.jpg",
   "locks": {
     "0x8af8525f9b00f3b5bae43512d6cfeef8f9555272": {
-      "name": "Testing Premium (monthly)",
+      "name": "BSS General Membership",
       "promo": false,
       "network": 5,
       "dataBuilder": "",
